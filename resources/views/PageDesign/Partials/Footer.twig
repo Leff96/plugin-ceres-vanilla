@@ -126,9 +126,9 @@
                     {% endif %}
                 {% endautoescape %}
             </div>
-            <!--<a rel="nofollow" href="https://www.mein-tiershop.de">
+            <a rel="nofollow" href="https://www.plentymarkets.eu">
                 <img alt="Plentymarkets GmbH Logo" class="svg plenty-brand" src="{{ plugin_path('Ceres') }}/images/plentymarkets-logo.svg" rel="nofollow" crossorigin="anonymous">
-            </a>-->
+            </a>
             <br>
             <small>&copy; Copyright {{ "now" | date("Y") }} | {{ trans("Ceres::Template.footerAllRightsReserved") }}</small>
         </div>
@@ -137,7 +137,7 @@
 {% else %}
     <div class="footer container-max">
         <div class="row">
-            <div class="col">
+            <div class="col clearfix">
                 {{ footerContainer | raw }}
             </div>
         </div>
